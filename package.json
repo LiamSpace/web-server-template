@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "dev": "node ./build/hello_node.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
